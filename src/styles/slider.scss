@@ -1,0 +1,46 @@
+$buttonBg:#CC0033;
+$Color:#339966;
+$width:60%;
+$height:60%;
+$pos:absolute;
+$fontsize:30px;
+$center:center;
+$Left:left;
+$padd:70px;
+$paddL:10px;
+$bWidth:200px;
+$bHeight:50px;
+$fontColor:#fff;
+$border:0;
+.swiper-container{
+	.swiper-wrapper{
+	.swiper-slide{
+	.bg{
+	width:$width;
+	height:$height;
+	}
+    .res{
+        width:$width;
+        height:$height;
+        position:$pos;
+        font-size:$fontsize;
+        color:$Color;
+        text-align:$Left;
+        padding-top:$padd;
+        padding-left:$paddL;
+    }
+	button{
+	width:$bWidth;
+	height:$bHeight;
+	background:$buttonBg;
+	font-size:$fontsize;
+	color:$fontColor;
+	border:$border;
+	border-radius:$fontsize;
+	}
+	}
+	}
+}
+
+
+
